@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logo.png"/>
+	    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png"/>
+        <title>Taste Of Seven</title>
+    </head>
+<body>
+    <header class="indexHeader">
+        TASTE OF SEVEN
+         <a href="first.htm">
+            <img src="images/logo.jpg" alt="taste of seven logo">
+         </a>
+         <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <div class="menu" id="menu">
+                <ul>
+                    <li> <a href="first.htm">Products&nbsp;&nbsp;</a></li>
+                    <li> <a href="first.htm">About&nbsp;&nbsp;</a></li>
+                    <li> <a href="first.htm">Contact&nbsp;&nbsp;</a></li>
+                    <li> <a href="order.htm">Order</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="orderForm">
+        <h2>Pricelist</h2>
+    
+            <table>
+                <tr>
+                    <th>Breads and Pastries</th>
+                    <th>Price</th>
+                    <td class="space"></td>
+                    <th>Cakes</th>
+                    <th>Price</th>
+                    <td class="space"></td>
+                    <th>Homecooked Meals</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                    <td class="space"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+        <div class="divider">
+            <h2>ORDER FORM</h2>
+        </div>
+
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Chelsea Egaran" required>
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" required>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="09*********" required>
+            <label for="emailaddress">Email Address</label>
+            <input type="email" name="emailaddress" id="emailaddress" placeholder="abc@gmail.com" required>
+
+
+            <label for="orders"><h2>ORDERS</h2></label>
+            <textarea name="orders" id="orders" rows="10" cols="70" placeholder="Quantity - Item (ex. 1 - Cinnamon Roll)" required></textarea>
+
+            <div class="form2">
+                <h2>Receiving Options</h2>
+                <label>
+                    <input type="radio" name="recOpt" value="Pick Up" checked required>
+                    Pick Up
+                </label>
+                <label>
+                    <input type="radio" name="recOpt" value="Delivery">
+                    Delivery
+                </label>
+
+                <h2>Mode of Payment</h2>
+                <label>
+                    <input type="radio" name="mop" value="Cash" checked required>
+                    Cash
+                </label>
+                <label>
+                    <input type="radio" name="mop" value="online">
+                    E-wallet
+                </label>
+                <label>
+                    <input type="radio" name="mop" value="Card">
+                    Card
+                </label>
+            </div>
+
+            <label for="notes"><h2>NOTES</h2></label>
+            <textarea name="notes" id="notes" rows="10" cols="70"></textarea>
+            <p>For queries, or more information and details, please reach us out through the indicated social media accounts.</p>
+        
+            <button type="submit" class="bsignup">SUBMIT</button>
+            <button type="reset" class="reset">Reset</button>
+        </form>
+    </main>
+
+    <footer>&#169;2024 Chelsea Felize Egaran | All Rights Reserved</footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
